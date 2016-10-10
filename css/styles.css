@@ -1,0 +1,353 @@
+header{
+    /*background-image:url(img/stock-photo.jpg) no-repeat center center;*/
+    background-image: url(../img/retina.jpg);
+    height: 800px;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+h1, nav h2{
+    display: none;
+}
+
+.navbar-brand{
+    margin-top: -12px;
+    font-size: 42px;
+    padding-right: 55px;
+}
+
+nav ul{
+    margin-top: 40px;
+}
+
+nav ul li{
+    padding-left: 18px;
+}
+
+nav .container > a:first-child{
+    /*font-family: 'Lilita One', cursive;*/
+    font-family: 'Changa One', cursive;
+    padding-top: 40px;
+}
+
+nav .container > a:first-child,
+nav ul a{
+    text-decoration: none;
+    color: #ff6c09;
+    font-family: 'Changa One', cursive;
+    text-transform: uppercase;
+    -moz-transition: color 1.0s ease;
+    -o-transition: color 1.0s ease;
+    -webkit-transition: color 1.0s ease;
+    transition: color 1.0s ease;
+}
+
+nav ul a{
+    font-size: 20px;
+}
+
+header nav .container > a:first-child:hover,
+header  nav ul a:hover
+{
+    color: #fff;
+}
+
+.header-info p:first-child{
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+    margin-top: 40px;
+    padding: 40px 0 40px 0;
+    border: 1px solid #ffffff;
+}
+
+.header-info h4{
+    font-size: 32px;
+    border-bottom: 4px solid #ff6c09;
+    color: #fff;
+    display: inline-block;
+    padding: 40px 0 5px 0;
+}
+
+.header-info p:last-child{
+    font-family: 'Muli', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#one{
+    margin-top: 60px;
+}
+
+#one > h2{
+    display: none;
+}
+
+#one .articles h3{
+    display: none;
+}
+
+#one .articles h4{
+    font-size: 32px;
+    font-family: 'Changa One', cursive;
+    padding: 10px 0;
+}
+
+#one .articles a.btn-primary{
+    background-color: #ff6c09;
+    border-color: #ff6c09;
+}
+
+#one .articles p{
+   font-family: 'Montserrat', sans-serif;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   /*line-height: 32px;      fallback */
+   max-height: 70px;      /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+#one .articles .article-info{
+    padding-bottom: 10px;
+}
+
+#one .articles .article-info .fa{
+    font-size: 26px;
+    padding-right: 8px;
+}
+
+#one .articles .article-info span{
+    padding-right: 10px;
+}
+
+#one .archives > h3{
+    display: none;
+}
+
+#one .archives .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    background-color: #ff6c09;
+    border-color: #ff6c09;
+}
+
+#search{
+    padding-bottom: 20px;
+}
+
+
+/*aboutMe.html*/
+
+.about-me-text{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.about-me-text h2{
+    font-family: 'Changa One', cursive;
+    text-align: center;
+    font-size: 64px;
+    padding: 40px 0;
+}
+
+.about-me-text p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-me-photo{
+    background-image: url(../img/about-me-photo.jpg);
+    margin-top: -110px;
+    height: 793px;
+    margin-left: -15px;
+    z-index: -100;
+    margin-left: -15px;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.about-me nav .container > a:first-child:hover,
+.about-me  nav ul a:hover{
+    color: #000;
+}
+
+
+/*contact.html*/
+
+.contact-text{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-text h2{
+    font-family: 'Changa One', cursive;
+    text-align: center;
+    font-size: 64px;
+    padding: 40px 0;
+}
+
+.contact-text p,
+.contact-form label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form .fa-envelope{
+    text-align: center;
+}
+
+.contact-form .icon{
+    text-align: center;
+}
+
+.contact-form .icon .fa-envelope{
+    font-size: 188px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact-form textarea{
+    resize: none;
+}
+
+/*article.html*/
+
+.header-article-text h2{
+    font-family: 'Changa One', cursive;
+    padding: 80px 0 40px 0;
+    font-size: 44px;
+}
+
+header.article{
+    height: 600px;
+}
+
+.header-article-text .article-info .fa{
+    font-size: 46px;
+    padding-right: 16px;
+}
+
+
+
+.header-article-text .article-info span{
+    padding-right: 20px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#article .text-wrapper{
+    margin-top: 40px;
+}
+
+#article{
+    margin-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #373a3c;
+    color: #fff;
+}
+
+footer ul{
+list-style: none;
+margin-top: -10px;
+}
+
+footer .media-wrapper span{
+    margin-top: 35px;
+}
+
+footer .media-wrapper{
+    display: inline-flex;
+}
+
+footer ul li{
+    float: left;
+}
+
+footer ul li{
+    padding-right: 8px;
+}
+
+footer ul li a {
+    color: #ff6c09;
+    -moz-transition: color 1.0s ease;
+    -o-transition: color 1.0s ease;
+    -webkit-transition: color 1.0s ease;
+    transition: color 1.0s ease;
+}
+
+footer ul li a:hover{
+    color: #000;
+}
+
+.about-me-text footer,
+.contact-text footer{
+    margin-left: -20%;
+}
+
+.navbar-nav .nav-item+.nav-item{
+    margin-left: 0;
+}
+
+@media(max-width: 991px){
+    .navbar .navbar-brand{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 768px){
+    .header-article-text h2{
+        font-size: 28px;
+    }
+    .header-article-text .article-info .fa{
+        font-size: 36px;
+    }
+
+    .header-article-text .article-info span{
+        font-size: 18px;
+    }
+
+    #article .text-wrapper p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 484px){
+    .header-info p:first-child{
+        font-size: 18px;
+    }
+
+    header nav .navbar-brand{
+        font-size: 30px;
+    }
+
+    .header-article-text h2{
+        font-size: 20px;
+    }
+
+    .header-article-text .article-info span{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 350px){
+    nav .container > a:first-child, nav ul a:first-child{
+        padding: 10px 0;
+    }
+}
